@@ -16,7 +16,7 @@ services:
       - DB_USER=root
       - DB_PASSWD=root
       - DB_NAME=alien_prestashop
-      - PS_INSTALL_AUTO=0
+      - PS_INSTALL_AUTO=1
       - VIRTUAL_HOST=www.alienshop.it
   mysql:
     image: mysql:5.6
